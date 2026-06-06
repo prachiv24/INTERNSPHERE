@@ -1,0 +1,80 @@
+# PS No. - SIH25033
+# Al-Based Smart Allocation Engine for PM Internship Scheme
+
+## InternSphere: AI-Powered Internship Allocation System
+A smart, automated platform designed to solve the challenge of internship placements at scale for the Smart India Hackathon 2025.InternSphere moves beyond simple recommendation engines. It's an intelligent allocation system that finds the optimal set of pairings for the entire ecosystem of students and companies.
+
+
+## Team Details
+
+**Team Name:** INNOVATRIX
+
+**Team Leader:** [@shreyasingh0406](https://github.com/shreyasingh0406)
+
+**Team Members:**
+
+- **MEMBER_1** - PRACHI VERMA - 2023UCS1553 - [@prachiv24](https://github.com/prachiv24)
+- **MEMBER_2** - SHREYA SINGH - 2023UCS1734 - [@shreyasingh0406](https://github.com/shreyasingh0406)
+- **MEMBER_3** - PALLAVI KUMARI - 2023UCS1729 - [@Pallavi-Kumari07](https://github.com/Pallavi-Kumari07)
+- **MEMBER_4** - PAYAL ROLAN - 2023UCS1694 - [@payalrolan](https://github.com/payalrolan)
+- **MEMBER_5** - SHASHI YADAV - 2023UCS1703 - [@shashi-3000](https://github.com/shashi-3000)
+- **MEMBER_6** - KRITIKA TANWAR - 2023UCS1620 - [@kritikatanwar](https://github.com/kritikatanwar)
+
+
+## Project Links
+### SIH Presentation: [Final SIH Presentation](https://github.com/shashi-3000/Internsphere/blob/main/files/Internal_PPT_INNOVATRIX.pdf)
+### Video Demonstration: [Watch Video](https://youtu.be/WBAqN1OBuZs)
+### Live Deployment: [View Deployment](https://internsphere-k1ro.vercel.app/)
+### Source Code: [GitHub Repository](https://github.com/shashi-3000/Internsphere)
+
+
+
+## ✨ Key Features
+
+### Frontend (React.js)
+Secure Authentication: Full user signup, login, and JWT-based session management.
+
+Dynamic UI: Smart navigation and dashboards that adapt based on user type (Student vs. Industry) and login status.
+
+Multi-Step Onboarding: User-friendly forms for detailed student and industry profile creation.
+
+Live Dashboards: Displays real, AI-generated matches for both students and industries.
+
+Polished Design: A modern, responsive interface built with Tailwind CSS.
+
+### Backend (Node.js)
+Robust API: A secure Express.js server to manage all data and authentication.
+
+Advanced Data Modeling: Mongoose schemas designed to handle two distinct user types linked to a single User model for authentication.
+
+Microservice Communication: Acts as the orchestrator, fetching data and communicating with the Python ML service to run the matchmaking.
+
+### AI/ML Service (Python)
+Intelligent Scoring Engine: Uses NLP (TF-IDF & Cosine Similarity) to calculate a detailed compatibility score for every student-internship pair.
+
+Optimal Allocation Engine: Implements the Nobel Prize-winning Gale-Shapley algorithm to find a fair and stable set of matches for the entire system, respecting all constraints like company capacity and affirmative action.
+
+### 💻 Tech Stack
+Area
+
+Technology
+
+Frontend
+
+React.js, Vite, Tailwind CSS, React Router, Axios
+
+Backend
+
+Node.js, Express.js
+
+Database
+
+MongoDB with Mongoose
+
+AI/ML Service
+
+Python, Flask, Pandas, Scikit-learn
+
+Authentication
+
+JSON Web Tokens (JWT), bcrypt
