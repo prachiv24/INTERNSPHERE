@@ -22,7 +22,7 @@ A smart, automated platform designed to solve the challenge of internship placem
 
 
 ## Project Links
-### SIH Presentation: [Final SIH Presentation](https://github.com/prachiv24/Internsphere/blob/main/files/Internal_PPT_INNOVATRIX.pdf)
+### SIH Presentation: [Final SIH Presentation](https://github.com/prachiv24/INTERNSPHERE/blob/main/sih_ppt.pdf)
 ### Video Demonstration: [Watch Video](https://youtu.be/WBAqN1OBuZs)
 ### Live Deployment: [View Deployment](https://internsphere-k1ro.vercel.app/)
 ### Source Code: [GitHub Repository](https://github.com/prachiv24/INTERNSPHERE)
